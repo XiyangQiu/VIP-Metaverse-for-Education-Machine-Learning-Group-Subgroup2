@@ -1,0 +1,12 @@
+{
+  "case": "03_length_zero",
+  "case_passed": true,
+  "files_sha256": {
+    "dimensions.json": "6095e351935727d9d97b848c772698f8cee460ae92c72d25b316b6c15e3dd3cc",
+    "rectangular_bar_validation.json": "2a10643fcbbbcc41cb84278f9284ad5054f30763f2494e97ef71f958e090a141",
+    "run.log": "5f59def39ff188cfa29ef9606ad237a130578e36306a76a3c206cc479f74859b",
+    "run_result.json": "fd15eba1ea4cfbf0cd5bb03cfe286fe565e0735d60cf14d26556999354046a49",
+    "stderr.log": "9e9607158c4ae583fd926e40a9cc95c506f60e126387bd49386c6b87fc04ff9b",
+    "stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

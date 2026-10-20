@@ -1,0 +1,12 @@
+{
+  "case": "05_missing_height",
+  "case_passed": true,
+  "files_sha256": {
+    "dimensions.json": "4c741e165f729c7223000d5efdea8064f04c2d1adae8ca80a2ea141bd6412e05",
+    "rectangular_bar_validation.json": "a022db2e0b178fb50cb943c5b137a0103c528888fa76e8beaca8ba94cda0b59e",
+    "run.log": "b98c0aee03e758a7993c2096ee3e2bf6c3325777ec29e64ec75c860df11bbeb9",
+    "run_result.json": "01cb57648eb8abb5c23a942863d14d38402dfa873fa87a21a0fe375487304586",
+    "stderr.log": "73dbd4799530b8fb0c638ec368d0a7362ba577834a817a075c5abfadc10ef3c4",
+    "stdout.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

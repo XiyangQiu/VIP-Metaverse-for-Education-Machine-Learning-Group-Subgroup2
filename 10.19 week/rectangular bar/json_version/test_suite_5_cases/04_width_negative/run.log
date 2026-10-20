@@ -1,0 +1,6 @@
+STDOUT
+
+STDERR
+配置错误：width 必须是大于 0 的有限数字，当前值为 -20。
+
+EXIT CODE: 2

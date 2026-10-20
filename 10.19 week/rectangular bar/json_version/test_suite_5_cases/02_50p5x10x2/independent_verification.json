@@ -1,0 +1,120 @@
+{
+  "case": "02_50p5x10x2",
+  "expected_bounding_box_size_mm": [
+    50.5,
+    10.0,
+    2.0
+  ],
+  "expected_volume_mm3": 1010.0,
+  "method": "Read archived STEP with build123d.import_step; independently parse binary STL triangles",
+  "ready_marker": {
+    "case": "02_50p5x10x2",
+    "input_dimensions": {
+      "units": "mm",
+      "length": 50.5,
+      "width": 10,
+      "height": 2
+    },
+    "expected_success": true,
+    "expected_volume_mm3": 1010.0,
+    "command": [
+      "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\work\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\outputs\\json_version\\rectangular_bar.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 64.034,
+    "report_passed": true,
+    "error_message": null,
+    "configuration_sha256": "5fa449126de141db5b3ecf7bb87a2baa907b5e885d0c257a1f278f7bec748cbd",
+    "report_sha256": "a92dbe4fb721a941dc081af06993ac3031ddcb68f20aec22d425f14a0480c289",
+    "artifact_sha256": {
+      "rectangular_bar.step": "6e930fa546872708e07f4002fa427f100a98d6d21fed2c5ac7c339fb2de044bf",
+      "rectangular_bar.stl": "07c320eea69a1821e40ab60207eafe28018814cf7bd8c3430aa74266c4f50d9c"
+    },
+    "checks": {
+      "expected_exit_code": true,
+      "source_unchanged": true,
+      "input_matches_saved_copy": true,
+      "report_updated": true,
+      "report_passed_matches_expected": true,
+      "configuration_hash_matches": true,
+      "configuration_values_match": true,
+      "artifact_hashes_match": true,
+      "step_dimensions_match": true,
+      "step_volume_matches": true,
+      "step_report_passed": true,
+      "stl_dimensions_match": true,
+      "stl_volume_matches": true,
+      "stl_report_passed": true
+    },
+    "case_passed": true
+  },
+  "archived_input": {
+    "units": "mm",
+    "length": 50.5,
+    "width": 10,
+    "height": 2
+  },
+  "step": {
+    "bounding_box_size_mm": [
+      50.5,
+      10.0,
+      2.0
+    ],
+    "bounding_box_min_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounding_box_max_mm": [
+      50.5,
+      10.0,
+      2.0
+    ],
+    "volume_mm3": 1010.0,
+    "solid_count": 1,
+    "valid_brep": true
+  },
+  "stl": {
+    "encoding": "binary",
+    "triangle_count": 12,
+    "bounding_box_min_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounding_box_max_mm": [
+      50.5,
+      10.0,
+      2.0
+    ],
+    "bounding_box_size_mm": [
+      50.5,
+      10.0,
+      2.0
+    ],
+    "signed_volume_mm3": 1010.0,
+    "volume_mm3": 1010.0,
+    "watertight_by_edge_incidence": true
+  },
+  "archive_sha256": {
+    "dimensions.json": "5fa449126de141db5b3ecf7bb87a2baa907b5e885d0c257a1f278f7bec748cbd",
+    "rectangular_bar.step": "6e930fa546872708e07f4002fa427f100a98d6d21fed2c5ac7c339fb2de044bf",
+    "rectangular_bar.stl": "07c320eea69a1821e40ab60207eafe28018814cf7bd8c3430aa74266c4f50d9c"
+  },
+  "checks": {
+    "input_dimensions_match": true,
+    "report_passed_is_true": true,
+    "report_configuration_sha256_matches_archive": true,
+    "report_step_sha256_matches_archive": true,
+    "report_stl_sha256_matches_archive": true,
+    "step_dimensions": true,
+    "step_volume": true,
+    "step_one_valid_solid": true,
+    "stl_dimensions": true,
+    "stl_volume": true,
+    "stl_positive_signed_volume": true,
+    "stl_watertight": true
+  },
+  "passed": true
+}

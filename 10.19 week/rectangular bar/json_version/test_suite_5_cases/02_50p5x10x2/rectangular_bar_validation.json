@@ -1,0 +1,126 @@
+{
+  "units": {
+    "length": "mm",
+    "volume": "mm^3"
+  },
+  "input_dimensions": {
+    "units": "mm",
+    "length": 50.5,
+    "width": 10.0,
+    "height": 2.0
+  },
+  "expected_bounding_box_size_mm": [
+    50.5,
+    10.0,
+    2.0
+  ],
+  "expected_volume_mm3": 1010.0,
+  "length_tolerances_mm": [
+    5.05e-05,
+    9.999999999999999e-06,
+    2e-06
+  ],
+  "volume_tolerance_mm3": 0.00101,
+  "tolerance_policy": {
+    "length_absolute_mm": 1e-06,
+    "length_relative": 1e-06,
+    "volume_absolute_mm3": 0.001,
+    "volume_relative": 1e-06,
+    "combination": "maximum of absolute and relative tolerance"
+  },
+  "step": {
+    "file": "rectangular_bar.step",
+    "selected_geometry": "all geometry in saved STEP document",
+    "bounding_box_min_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounding_box_max_mm": [
+      50.5,
+      10.0,
+      2.0
+    ],
+    "bounding_box_size_mm": [
+      50.5,
+      10.0,
+      2.0
+    ],
+    "volume_mm3": 1010.0,
+    "solid_count": 1,
+    "individual_solid_volumes_mm3": [
+      1010.0
+    ],
+    "valid_brep": true,
+    "shell_count": 1,
+    "shell_boundary_edge_counts": [
+      0
+    ],
+    "checks": {
+      "bounding_box_size": true,
+      "origin_minimum": true,
+      "bounding_box_maximum": true,
+      "volume": true,
+      "one_solid": true,
+      "valid_brep": true,
+      "positive_solid_volumes": true,
+      "closed_shells": true
+    },
+    "passed": true
+  },
+  "stl": {
+    "file": "rectangular_bar.stl",
+    "selected_geometry": "all triangles in saved STL document",
+    "encoding": "binary",
+    "assumed_units": "mm (STL does not store units)",
+    "bounding_box_min_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "bounding_box_max_mm": [
+      50.5,
+      10.0,
+      2.0
+    ],
+    "bounding_box_size_mm": [
+      50.5,
+      10.0,
+      2.0
+    ],
+    "signed_volume_mm3": 1010.0,
+    "triangle_count": 12,
+    "unique_vertex_count": 8,
+    "boundary_edge_count": 0,
+    "nonmanifold_edge_count": 0,
+    "inconsistently_wound_edge_count": 0,
+    "degenerate_triangle_count": 0,
+    "connected_component_count": 1,
+    "watertight": true,
+    "checks": {
+      "bounding_box_size": true,
+      "origin_minimum": true,
+      "bounding_box_maximum": true,
+      "volume": true,
+      "positive_signed_volume": true,
+      "watertight": true,
+      "consistent_winding": true,
+      "one_connected_component": true,
+      "nondegenerate_triangles": true
+    },
+    "passed": true
+  },
+  "untested": [
+    "material properties",
+    "manufacturing tolerances"
+  ],
+  "passed": true,
+  "configuration_file": "dimensions.json",
+  "configuration_sha256": "5fa449126de141db5b3ecf7bb87a2baa907b5e885d0c257a1f278f7bec748cbd",
+  "stage": "complete",
+  "artifacts_updated": true,
+  "artifacts_sha256": {
+    "rectangular_bar.step": "6e930fa546872708e07f4002fa427f100a98d6d21fed2c5ac7c339fb2de044bf",
+    "rectangular_bar.stl": "07c320eea69a1821e40ab60207eafe28018814cf7bd8c3430aa74266c4f50d9c"
+  }
+}

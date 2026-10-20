@@ -1,0 +1,148 @@
+{
+  "all_tests_passed": true,
+  "source_unchanged": true,
+  "source_sha256": {
+    "rectangular_bar.py": "f63d1c15caf2a69733c05cbeb8b229392a968c0eee3ee7bf6df7bd6737eb2329",
+    "validate_geometry.py": "c02c8aa2191bd2e6f61f9a7e1a83990fb8262670800c498802c581e436aea981",
+    "requirements.txt": "d9c3e0d65682e5f955fae6b8185db4aca40376a9738916eb489f534ace204982"
+  },
+  "base_version_unchanged": true,
+  "previous_150_test_archive_unchanged": true,
+  "restored_dimensions": {
+    "units": "mm",
+    "length": 150,
+    "width": 20,
+    "height": 10
+  },
+  "final_report_passed": true,
+  "cases": [
+    {
+      "case": "01_80x30x5",
+      "input_dimensions": {
+        "units": "mm",
+        "length": 80,
+        "width": 30,
+        "height": 5
+      },
+      "exit_code": 0,
+      "report_passed": true,
+      "case_passed": true,
+      "saved_directory": "01_80x30x5",
+      "actual_step_dimensions_mm": [
+        80.0,
+        30.0,
+        5.0
+      ],
+      "actual_stl_dimensions_mm": [
+        80.0,
+        30.0,
+        5.0
+      ],
+      "actual_step_volume_mm3": 12000.0,
+      "actual_stl_volume_mm3": 12000.0,
+      "independent_verification_passed": true,
+      "preview_reviewed": true
+    },
+    {
+      "case": "02_50p5x10x2",
+      "input_dimensions": {
+        "units": "mm",
+        "length": 50.5,
+        "width": 10,
+        "height": 2
+      },
+      "exit_code": 0,
+      "report_passed": true,
+      "case_passed": true,
+      "saved_directory": "02_50p5x10x2",
+      "actual_step_dimensions_mm": [
+        50.5,
+        10.0,
+        2.0
+      ],
+      "actual_stl_dimensions_mm": [
+        50.5,
+        10.0,
+        2.0
+      ],
+      "actual_step_volume_mm3": 1010.0,
+      "actual_stl_volume_mm3": 1010.0,
+      "independent_verification_passed": true,
+      "preview_reviewed": true
+    },
+    {
+      "case": "03_length_zero",
+      "input_dimensions": {
+        "units": "mm",
+        "length": 0,
+        "width": 20,
+        "height": 10
+      },
+      "exit_code": 2,
+      "report_passed": false,
+      "case_passed": true,
+      "saved_directory": "03_length_zero",
+      "error_message": "配置错误：length 必须是大于 0 的有限数字，当前值为 0。",
+      "previous_exports_unchanged": true,
+      "snapshot_skip_reason": "配置在生成前被拒绝；此输入未生成有效模型。"
+    },
+    {
+      "case": "04_width_negative",
+      "input_dimensions": {
+        "units": "mm",
+        "length": 150,
+        "width": -20,
+        "height": 10
+      },
+      "exit_code": 2,
+      "report_passed": false,
+      "case_passed": true,
+      "saved_directory": "04_width_negative",
+      "error_message": "配置错误：width 必须是大于 0 的有限数字，当前值为 -20。",
+      "previous_exports_unchanged": true,
+      "snapshot_skip_reason": "配置在生成前被拒绝；此输入未生成有效模型。"
+    },
+    {
+      "case": "05_missing_height",
+      "input_dimensions": {
+        "units": "mm",
+        "length": 150,
+        "width": 20
+      },
+      "exit_code": 2,
+      "report_passed": false,
+      "case_passed": true,
+      "saved_directory": "05_missing_height",
+      "error_message": "配置错误：dimensions.json 缺少必填字段：height。",
+      "previous_exports_unchanged": true,
+      "snapshot_skip_reason": "配置在生成前被拒绝；此输入未生成有效模型。"
+    },
+    {
+      "case": "06_restore_150x20x10",
+      "input_dimensions": {
+        "units": "mm",
+        "length": 150,
+        "width": 20,
+        "height": 10
+      },
+      "exit_code": 0,
+      "report_passed": true,
+      "case_passed": true,
+      "saved_directory": "06_restore_150x20x10",
+      "actual_step_dimensions_mm": [
+        150.0,
+        20.0,
+        10.0
+      ],
+      "actual_stl_dimensions_mm": [
+        150.0,
+        20.0,
+        10.0
+      ],
+      "actual_step_volume_mm3": 30000.0,
+      "actual_stl_volume_mm3": 30000.0,
+      "independent_verification_passed": true,
+      "preview_reviewed": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+STDOUT
+
+STDERR
+配置错误：dimensions.json 缺少必填字段：height。
+
+EXIT CODE: 2

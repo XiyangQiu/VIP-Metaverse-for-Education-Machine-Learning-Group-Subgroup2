@@ -1,0 +1,34 @@
+{
+  "case": "05_missing_height",
+  "input_dimensions": {
+    "units": "mm",
+    "length": 150,
+    "width": 20
+  },
+  "expected_success": false,
+  "expected_volume_mm3": null,
+  "command": [
+    "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\work\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\outputs\\json_version\\rectangular_bar.py"
+  ],
+  "exit_code": 2,
+  "elapsed_seconds": 0.857,
+  "report_passed": false,
+  "error_message": "配置错误：dimensions.json 缺少必填字段：height。",
+  "configuration_sha256": "4c741e165f729c7223000d5efdea8064f04c2d1adae8ca80a2ea141bd6412e05",
+  "report_sha256": "a022db2e0b178fb50cb943c5b137a0103c528888fa76e8beaca8ba94cda0b59e",
+  "artifact_sha256": {},
+  "checks": {
+    "expected_exit_code": true,
+    "source_unchanged": true,
+    "input_matches_saved_copy": true,
+    "report_updated": true,
+    "report_passed_matches_expected": true,
+    "explicit_error_message": true,
+    "configuration_failure_stage": true,
+    "artifacts_not_updated_in_report": true,
+    "existing_artifacts_unchanged": true,
+    "no_success_artifacts_archived": true
+  },
+  "case_passed": true
+}

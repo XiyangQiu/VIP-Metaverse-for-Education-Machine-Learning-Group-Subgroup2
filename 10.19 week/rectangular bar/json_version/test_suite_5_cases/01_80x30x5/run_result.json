@@ -1,0 +1,42 @@
+{
+  "case": "01_80x30x5",
+  "input_dimensions": {
+    "units": "mm",
+    "length": 80,
+    "width": 30,
+    "height": 5
+  },
+  "expected_success": true,
+  "expected_volume_mm3": 12000.0,
+  "command": [
+    "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\work\\.venv\\Scripts\\python.exe",
+    "C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\outputs\\json_version\\rectangular_bar.py"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 64.806,
+  "report_passed": true,
+  "error_message": null,
+  "configuration_sha256": "0a7f856a670bf0ddd465c5ef7616b44b8bb5edd1d825eae54764ddcde056626e",
+  "report_sha256": "5c59cbffcf9436d0a59a0eef6cd607d33269b414d628e7f7c6217f575d6a961e",
+  "artifact_sha256": {
+    "rectangular_bar.step": "c0f5de46269f83fb9c8ae70de0fd5ddde82f3e26b3e8f64b019b5de19559cd36",
+    "rectangular_bar.stl": "810443a3e944e3a85c02adc9b8939b58f2d88c2f01cb5a87b57b1d17fd5fe061"
+  },
+  "checks": {
+    "expected_exit_code": true,
+    "source_unchanged": true,
+    "input_matches_saved_copy": true,
+    "report_updated": true,
+    "report_passed_matches_expected": true,
+    "configuration_hash_matches": true,
+    "configuration_values_match": true,
+    "artifact_hashes_match": true,
+    "step_dimensions_match": true,
+    "step_volume_matches": true,
+    "step_report_passed": true,
+    "stl_dimensions_match": true,
+    "stl_volume_matches": true,
+    "stl_report_passed": true
+  },
+  "case_passed": true
+}

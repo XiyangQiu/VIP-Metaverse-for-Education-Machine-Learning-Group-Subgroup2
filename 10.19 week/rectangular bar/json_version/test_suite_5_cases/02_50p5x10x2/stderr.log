@@ -1,0 +1,16 @@
+{"model":"C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\outputs\\json_version\\rectangular_bar.py","parent":null,"state":"building","phase":"generate","progress":null,"elapsed":0.0}
+{"model":"C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\outputs\\json_version\\rectangular_bar.py","parent":null,"state":"building","phase":"Building geometry","progress":null,"elapsed":0.058}
+{"model":"C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\outputs\\json_version\\rectangular_bar.py","parent":null,"state":"building","phase":"Collecting parts","progress":null,"elapsed":25.607}
+{"model":"C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\outputs\\json_version\\rectangular_bar.py","parent":null,"state":"building","phase":"Meshing components","progress":[0,1],"elapsed":25.623}
+{"model":"C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\outputs\\json_version\\rectangular_bar.py","parent":null,"state":"building","phase":"Meshing components","progress":[1,1],"elapsed":25.633}
+{"model":"C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\outputs\\json_version\\rectangular_bar.py","parent":null,"state":"building","phase":"Writing outputs","progress":null,"elapsed":25.636}
+{"model":"C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\outputs\\json_version\\rectangular_bar.py","parent":null,"state":"building","phase":"Source ready","progress":null,"elapsed":25.705}
+{"model":"C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\outputs\\json_version\\rectangular_bar.py","parent":null,"state":"building","phase":"Saving STEP","progress":null,"elapsed":25.708}
+{"model":"C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\outputs\\json_version\\rectangular_bar.py","parent":null,"state":"building","phase":"Collecting parts","progress":null,"elapsed":25.808}
+{"model":"C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\outputs\\json_version\\rectangular_bar.py","parent":null,"state":"building","phase":"Meshing components","progress":[0,1],"elapsed":25.813}
+{"model":"C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\outputs\\json_version\\rectangular_bar.py","parent":null,"state":"building","phase":"Meshing components","progress":[1,1],"elapsed":25.826}
+{"model":"C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\outputs\\json_version\\rectangular_bar.py","parent":null,"state":"building","phase":"Writing outputs","progress":null,"elapsed":25.829}
+{"model":"C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\outputs\\json_version\\rectangular_bar.py","parent":null,"state":"building","phase":"STEP saved","progress":null,"elapsed":25.945}
+[cadgen] wrote STL: C:/Users/lenovo/Documents/Codex/2026-10-20/text-to-cad-100-mm-20/outputs/json_version/rectangular_bar.stl
+{"model":"C:\\Users\\lenovo\\Documents\\Codex\\2026-10-20\\text-to-cad-100-mm-20\\outputs\\json_version\\rectangular_bar.py","parent":null,"state":"done","phase":"STEP saved","progress":null,"elapsed":59.596}
+[cadgen] wrote STEP: C:/Users/lenovo/Documents/Codex/2026-10-20/text-to-cad-100-mm-20/outputs/json_version/rectangular_bar.step

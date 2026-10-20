@@ -1,0 +1,10 @@
+{
+  "passed": false,
+  "stage": "configuration",
+  "configuration_file": "dimensions.json",
+  "configuration_sha256": null,
+  "input_dimensions": null,
+  "error": "dimensions.json 缺少必填字段：height。",
+  "artifacts_updated": false,
+  "note": "本次运行未完成；已有 STEP/STL 不能视为当前配置的有效结果。"
+}

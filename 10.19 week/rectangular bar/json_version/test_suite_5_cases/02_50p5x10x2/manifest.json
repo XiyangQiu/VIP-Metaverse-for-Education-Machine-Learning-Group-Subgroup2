@@ -1,0 +1,16 @@
+{
+  "case": "02_50p5x10x2",
+  "case_passed": true,
+  "files_sha256": {
+    "dimensions.json": "5fa449126de141db5b3ecf7bb87a2baa907b5e885d0c257a1f278f7bec748cbd",
+    "independent_verification.json": "dd46b920c6c121d51ba5d2f7f6605b9c44c6cddddbc0580f77e2dffd9dbf3848",
+    "preview.png": "bb463e05c7c63a5de8915afe0eb744a917885e3d1ce511aa84f3e53380180851",
+    "rectangular_bar.step": "6e930fa546872708e07f4002fa427f100a98d6d21fed2c5ac7c339fb2de044bf",
+    "rectangular_bar.stl": "07c320eea69a1821e40ab60207eafe28018814cf7bd8c3430aa74266c4f50d9c",
+    "rectangular_bar_validation.json": "a92dbe4fb721a941dc081af06993ac3031ddcb68f20aec22d425f14a0480c289",
+    "run.log": "1a89c0dfe2b1c41cc4008225fe562bd86f657b11d36c2255934741326421e641",
+    "run_result.json": "11c2efb4d348992f4b585c31ddaecb2a8ba0b9451c1c45faec1fb12e45f661e7",
+    "stderr.log": "1c393d679499e5dc955f460ed06903d199bde0b544fb7ea2c7b8ef82aa8f5850",
+    "stdout.log": "e2b787ef065aa7112d3cc1c7a080647b5898ce4cd44f6975c88caff9c6cdd1a6"
+  }
+}

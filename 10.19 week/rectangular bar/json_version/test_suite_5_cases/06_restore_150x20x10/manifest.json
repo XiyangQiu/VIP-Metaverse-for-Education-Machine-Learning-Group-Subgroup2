@@ -1,0 +1,16 @@
+{
+  "case": "06_restore_150x20x10",
+  "case_passed": true,
+  "files_sha256": {
+    "dimensions.json": "0719623a462a033e95ee0cdef27483080d7fef2c874753dff1c343da75de0bcb",
+    "independent_verification.json": "1c3c64d2de7b8179cb93f4789355c9262e9088823e5ca110c5f1c46d905c8456",
+    "preview.png": "661dc8a7df33af94901aec4373e9b2325e56122da9c3135b4e438309dd69c5ee",
+    "rectangular_bar.step": "d6785aad3aee511b73835ad9e0ff957cc496d8e96a0d047ec4ee278fd8e4a18a",
+    "rectangular_bar.stl": "b98f78a0486050de0f73da015ba5420d1ca56d35f928ff6713e867aa6dda2b21",
+    "rectangular_bar_validation.json": "ad8b165f88c92d97b545e5855064c0f4acf6eda7b6118851986e9ec5b63ff43a",
+    "run.log": "3be94145f6e2b370ddce3f24fb369fa72b56aefe4a0b7fea5b7735c844488d15",
+    "run_result.json": "9784deb63450eb070da2e8f2bd275385171c1b7ffd18b5d533b51b00acac2468",
+    "stderr.log": "878b42fcc949c63a0c5c9027f547386151bd81ca3ceb15bb051a777f34f59c47",
+    "stdout.log": "0180719347d8b6d123a796debf04ce40efb394f1296152db32f36881ce6ec455"
+  }
+}
